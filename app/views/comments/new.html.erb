@@ -1,0 +1,11 @@
+<div class="new-rival-box">
+  <%= form_tag("/rivals/#{@rival.id}/comments", method: :post) do %>
+    <form class="form-horizontal" role="form">
+      <div class="form-group">
+        <label class="control-label ">入力フォーム</label>
+        <textarea class="form-control" placeholder ="例)同じく東大志望です！よければ一時間勉強しませんか？" name="text" rows="10" minlength="10" required></textarea><br>
+      </div>
+      <input type="submit" class="btn btn-prymary" value="SENT">
+    </form>
+  <% end %>
+</div>

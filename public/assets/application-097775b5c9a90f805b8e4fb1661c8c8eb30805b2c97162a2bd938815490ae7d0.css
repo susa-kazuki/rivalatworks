@@ -1,0 +1,385 @@
+/* line 1, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.test {
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  border: 1px solid #696969;
+}
+
+/* line 7, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.test h3 {
+  font-family: 'arial black';
+}
+
+/* line 8, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.test p {
+  font-family: 'arial narrow';
+}
+
+/* line 9, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.test span {
+  font-family: 'Gulim';
+}
+
+/* line 11, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.post {
+  font-family: 'Gulim';
+  text-align: center;
+}
+
+/* line 16, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.post h3 {
+  font-family: 'Gulim';
+  font-size: 30px;
+  margin-top: 80px;
+  display: inline-block;
+  background-color: #696969;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* line 27, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.post .name {
+  font-family: 'Gulim';
+  font-size: 30px;
+  display: block;
+  margin: 0px auto;
+  border: 2px solid #696969;
+}
+
+/* line 35, /Users/kizukasasu/projects/rivals/app/assets/stylesheets/rivals.scss */
+.post .text {
+  font-family: 'Gulim';
+  font-size: 20px;
+  display: block;
+  margin: 30px auto;
+  border: 2px solid #696969;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+body{
+  background-color: #FFF8DC;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width:100%;
+  height:80px;
+  background-color:#FF6347;
+  margin-top:-10px;
+  position: fixed;
+  border-bottom: 1px solid #C0C0C0;
+}
+
+.logo img{
+  height:60px;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 15px;
+  float:left;
+}
+
+header li{
+  display: inline-block;
+  text-align: center;
+  float:right;
+  font-size: 18px;
+  font-family: 'arial black';
+  margin:25px 5px;
+  padding:5px 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: #98FB98;
+  width:100px;
+  height:20px;
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+header li:hover{
+  opacity: 0.9;
+}
+
+header li:active{
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+header li a{
+  color:white;
+  text-decoration: none;
+}
+
+.space{
+  width: 100%;
+  height:80px;
+}
+.pop{
+  text-align: center;
+  width:50%;
+  font-size: 30px;
+  margin:30px auto;
+  background-color: #FF6347;
+  color:white;
+  font-family: 'gulim';
+  opacity: 0.9;
+  border-radius: 20px;
+}
+
+/*rivals/index*/
+.rival{
+  width: 70%;
+  margin: 10px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+   -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+.rival .image{
+  float:left;
+  margin-left: 20px;
+  margin-top: 10;
+  background-color: white;
+}
+
+.rival .btn{
+  background-color: #FF6347;
+  margin: 10px 10px;
+  padding:10px 25px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+.rival .image .btn:hover{
+  opacity: 0.5;
+}
+
+.rival .btn:active{
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+}
+
+.rival .btn a{
+  color:white;
+  text-decoration: none;
+}
+
+.rival .index{
+  text-align: center;
+}
+
+.rival .profile{
+  width:60%;
+  margin:20px auto;
+  margin-left: 190px;
+  padding: 10px;
+  border: 5px solid #E0FFFF;
+  background-color: white;
+}
+
+.rival .profile .time{
+  display: block;
+  font-family: 'Helvetica';
+  margin-top:40px;
+  margin-bottom:40px;
+  margin-left:5px;
+  color: #98FB98;
+}
+.rival .profile h3{
+  font-family: 'Helvetica';
+  font-size: 25px;
+  display: inline;
+  margin-left:10px;
+  color: #FF6347;
+}
+.rival .profile h4{
+  font-family: 'Helvetica';
+  font-weight: normal;
+  margin-left:10px;
+  display: inline;
+  border-bottom: 1px solid #00BFFF;
+}
+
+.rival .profile h4 span{
+  font-family: 'Helvetica';
+  font-weight: normal;
+  margin-left:5px;
+  display: inline;
+  color:#00BFFF;
+}
+
+.rival .profile p{
+  margin-left: 10px;
+}
+.rival .profile span{
+  font-family: 'Gulim';
+  margin-left: 10px;
+  font-size: 25px;
+  display: block;
+}
+
+.rival .profile .edit{
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+.rival .profile .edit li{
+  list-style: none;
+  margin-right: 20px;
+  float:left;
+}
+
+.mypage{
+  text-align: center;
+  font-family: 'Helvetica';
+  margin-bottom: 50px;
+}
+
+.mypage h1{
+  color:#00BFFF;
+}
+.mypage span{
+ color:#FF6347;
+}
+
+.mypage p{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+
+
+/*rivals/new*/
+.post{
+  font-family: 'Gulim';
+  text-align: center;
+}
+
+.post h3{
+  font-family: 'Gulim';
+  font-size: 30px;
+  margin-top:30px;
+  margin-bottom: -20px;
+  display: inline-block;
+  background-color: #98FB98;
+  padding:5px 10px;
+  color:white;
+  border-radius: 5px;
+}
+
+.post .text{
+font-family: 'Gulim';
+font-size: 25px;
+display: block;
+margin:30px auto;
+border:5px solid #E0FFFF;
+padding: 10px;
+background-color: white;
+width:47%;
+}
+
+.post .button{
+  font-family: 'arial black';
+  font-size: 30px;
+  width:50%;
+  border-color:#98FB98;
+  background-color:#98FB98;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  color: white;
+}
+
+.page{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'arial narrow';
+  margin: 50px 10px;
+}
+
+/*ログイン画面*/
+.welcome{
+  text-align: center;
+  margin-top: 50px;
+}
+.welcome span{
+  font-family: 'arial black';
+  font-weight: normal;
+  background-color: #98FB98;
+  padding:10px 30px;
+  color:white;
+  border-radius:100px;
+  letter-spacing: 3px;
+}
+
+.form{
+  width:350px;
+  margin:50px auto;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gulim';
+  border:3px solid #E0FFFF;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.field{
+  margin: 30px 0px;
+}
+
+.field .avatar{
+  margin: 30px auto;
+  width:200px;
+  padding: 10px;
+  border:1px solid #C0C0C0;
+}
+
+.actions{
+  margin: 30px 0px;
+}
+.link{
+  text-align: center;
+  margin-bottom: 30px
+}
+
+/*create.html.erb*/
+.success{
+  font-family: 'Gulim';
+  width: 30%;
+  text-align: center;
+  margin: 50px auto;
+  background-color: white;
+  padding: 50px;
+  border-radius: 30px;
+  border:3px solid #E0FFFF;
+}
+
+footer{
+  width:100%;
+  height:80px;
+  background-color: #E0FFFF;
+}

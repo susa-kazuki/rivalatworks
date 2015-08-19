@@ -1,0 +1,181 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
+}
+
+.container-fluid {
+margin-right: auto;
+margin-left: auto;
+max-width: 90%;
+}
+
+.box{
+  height:400px;
+}
+
+.box img{
+  margin-top: 25px;
+}
+
+
+.pageheader{
+  font-family: 'Hiragino Mincho ProN';
+  font-size: 30px;
+  width:100%;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+/*rivals/index*/
+
+.rivals-message{
+  width:100%;
+  height: 300px;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-family: 'Hiragino Mincho ProN';
+  text-align: center;
+  color: white;
+  background-image: url(http://www.transparenttextures.com/patterns/black-paper.png)
+}
+
+.rivals-message h1{
+  font-weight: bold;
+  margin-top: 110px;
+}
+
+.rivals-message p{
+  margin-top: 20px;
+}
+
+.rivals{
+  // max-width: 450px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+  background-image: url(http://www.transparenttextures.com/patterns/blizzard.png);
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+.rivals-header{
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding-bottom: 15px;
+}
+
+.rivals-nickname{
+  display: inline-block;
+  font-family: 'Hiragino Mincho ProN';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 5px;
+  opacity: 0.7;
+}
+
+
+.rivals .btn-group{
+  float:right;
+}
+
+
+.rivals-text{
+  width:100%;
+  height:120px;
+  font-size: 16px;
+  border:1px solid rgba(0, 0, 0, .2);
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.rivals-content{
+  display: block;
+}
+
+.rivals-info{
+  width:70%;
+  display: inline-block;
+  float:left;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: -30px;
+  height:50px;
+  overflow: hidden;
+}
+
+.rivals-skype{
+  color: #5bc0de;
+  font-size: 18px;
+}
+
+.rivals-school{
+  font-family: 'Hiragino Mincho ProN';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rivals-content .comment{
+  float:right;
+  width:25%;
+  border-radius: 8px;
+  margin:15px;
+  padding:10px 5px;
+  -webkit-box-shadow: 0 10px 6px -10px #777;
+  -moz-box-shadow: 0 10px 6px -10px #777;
+  box-shadow: 0 10px 6px -10px #777;
+}
+
+
+.rivals-comment{
+  width:100%;
+  height:40px;
+  border:1px solid rgba(0, 0, 0, .2);
+  border-radius:8px;
+  overflow: scroll;
+  background-color: white;
+}
+
+.rivals-comment span{
+  margin-left: 5px;
+  font-weight: bold;
+  color:#FD046C;
+}
+
+.rivals-time{
+  margin-top: 5px;
+  margin-left: 10px;
+  opacity: 0.3;
+}
+
+/*rivals/new*/
+
+.new-rival-box {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.new-rival-box .form-group{
+  margin-bottom: 0px;
+}
+
+.form-box{
+  max-width:300px;
+  padding: 50px;
+  margin:50px auto;
+  background-color: white;
+  border-radius:8px;
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #428bca;
+  color:white;
+}

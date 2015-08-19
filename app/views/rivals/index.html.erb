@@ -1,0 +1,16 @@
+<div class="rivals-message">
+  <div class="container">
+    <h1>ライバルを、目の前に</h1>
+    <p>このサイトは、同じ志望校を目指す人達を繋げるマッチングサービスです</p>
+  </div>
+</div>
+
+
+<div class="pageheader" >投稿一覧</div>
+<div class="row">
+    <%= render :partial => "rival", :collection => @rivals %>
+</div>
+
+<div class ="page">
+  <%= paginate(@rivals) %>
+</div>

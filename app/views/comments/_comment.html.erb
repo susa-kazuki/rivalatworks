@@ -1,0 +1,23 @@
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail rivals">
+    <div class="rivals-header">
+      <span class="rivals-nickname"><%= comment.user.nickname %></span>
+    </div><!-- rivals-headerのとじタグ -->
+
+    <div class="caption comments-text">
+      <%= comment.text %>
+    </div>
+
+    <div class="comments-skype">
+      <i class="fa fa-skype fa-lg"></i><span class="comment-skype"><%= comment.user.skype %></span></li>
+    </div>
+
+
+    <div class="rivals-time">
+      <%= comment.created_at.to_s(:human) %>
+    </div>
+  </div><!-- thumbnailsのとじタグ -->
+</div><!-- colのとじタグ -->
+
+
+

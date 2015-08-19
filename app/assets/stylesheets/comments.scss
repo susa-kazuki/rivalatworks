@@ -1,0 +1,24 @@
+// Place all the styles related to the comments controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.comments-text{
+  width:100%;
+  height:120px;
+  font-size: 14px;
+  border:1px solid rgba(0, 0, 0, .2);
+  border-radius: 8px;
+  margin: 10px 0px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.comments-skype{
+ text-align: center;
+}
+
+.comment-skype{
+  margin-left: 5px;
+  color: #5bc0de;
+  font-size: 18px;
+}

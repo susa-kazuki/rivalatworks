@@ -1,0 +1,49 @@
+<div class="col-sm-12 col-md-4">
+  <div class="thumbnail rivals">
+    <div class="rivals-header">
+      <span class="rivals-nickname"><%= rival.user.nickname %></span>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-default">メニュー</button>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <% if user_signed_in? && current_user.id == rival.user_id %>
+              <li><%= link_to '削除',"/rivals/#{rival.id}", method: :delete %></li>
+              <li><%= link_to '編集',"/rivals/#{rival.id}/edit", method: :get %></li>
+              <li role="separator" class="divider"></li>
+            <% end %>
+              <li><%= link_to 'コメント一覧',"/rivals/#{rival.id}/comments/", method: :get %></li>
+            </ul>
+        </div><!-- btn-groupのとじタグ -->
+    </div><!-- rivals-headerのとじタグ -->
+
+    <div class="caption rivals-text">
+            <%= rival.text %>
+    </div>
+
+    <div class="rivals-content">
+      <ul class="rivals-info">
+        <li><i class="fa fa-skype fa-lg"></i> <span class="rivals-skype"><%= rival.user.skype %></span></li>
+        <li><i class="fa fa-university"></i> <span class="rivals-school"><%= rival.school %></span></li>
+      </ul>
+      <%= link_to 'コメント',"/rivals/#{rival.id}/comments/new",class: "btn btn-primary comment", method: :get %>
+    </div>
+
+    <div class="rivals-comment caption">
+          <i class="fa fa-bell-o"></i> <% if rival.comments.present? %>
+            <span><%= rival.comments.order('created_at DESC').first.text %></span>
+          <% else %>
+            コメントはありません
+          <% end %>
+    </div>
+
+    <div class="rivals-time">
+      <%= rival.created_at.to_s(:human) %>
+    </div>
+
+  </div><!-- thumnailのとじタグ -->
+</div><!-- colのとじタグ -->
+
